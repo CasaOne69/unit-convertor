@@ -10,10 +10,18 @@ const return2 = document.getElementById("vols")
 const return3 = document.getElementById("massr")
 
 conBut.addEventListener("click", function() {
-lengReturn ()
-volReturn ()
-massReturn ()
-userI.value = ""
+    if (userI.value < 1)
+    {
+
+        
+  return alert("Please Enter Valid Number")
+    }
+    else {
+        lengReturn ()
+        volReturn ()
+        massReturn ()
+        userI.value = "" 
+    }
 })
 
 function lengReturn () {
