@@ -11,6 +11,7 @@ const return2 = document.getElementById("vols")
 conBut.addEventListener("click", function() {
 lengReturn ()
 volReturn ()
+userI.value = ""
 })
 
 function lengReturn () {
